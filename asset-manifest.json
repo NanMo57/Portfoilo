@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfoilo/static/css/main.918228fb.css",
+    "main.js": "/portfoilo/static/js/main.3218c881.js",
+    "static/media/bg.png": "/portfoilo/static/media/bg.4acf6a7b6dc161d7152a.png",
+    "static/media/Antique_Cafe.png": "/portfoilo/static/media/Antique_Cafe.759245308b4495fd55d1.png",
+    "static/media/E-Shopping.png": "/portfoilo/static/media/E-Shopping.1cd39d83d53c5529436b.png",
+    "static/media/Dashboard.png": "/portfoilo/static/media/Dashboard.888c0a6833337a2de257.png",
+    "static/media/signin&signup.png": "/portfoilo/static/media/signin&signup.ed27362dcd4c0e677755.png",
+    "static/media/digital_oclock.png": "/portfoilo/static/media/digital_oclock.11a359a4fd27952fb884.png",
+    "static/media/logo.png": "/portfoilo/static/media/logo.518ab8ad8e566590164d.png",
+    "index.html": "/portfoilo/index.html",
+    "main.918228fb.css.map": "/portfoilo/static/css/main.918228fb.css.map",
+    "main.3218c881.js.map": "/portfoilo/static/js/main.3218c881.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.918228fb.css",
+    "static/js/main.3218c881.js"
+  ]
+}
