@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#background{
+    background-image: linear-gradient(45deg,rgba(27, 27, 27, 0.422),rgba(67, 65, 65, 0.263)) , url('./img/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.btn:hover{
+    color: #c2575d;
+}
+
+/************Header***************/
+header{
+    background-color:rgba(0 0 0 / 36%) ;
+}
+.Logo{
+    width: 80px;
+    height: 50px;
+}
+header a{
+    padding: 5px 10px;
+}
+header a.active{
+    background-color:#c2575d;
+}
+
+header .social a.active{
+    background-color: transparent;
+}
+/************Home***************/
+.ms-193{
+    margin-left:193px;
+}
+.text-yellow{
+    color: #f0ff48;
+}
+#Home{
+    height: 100vh;
+}
+/*************About*****************/ 
+.lineTitle{
+    width: 70px;
+    margin-top: -10px;
+}
+.lineTitle hr{
+    height: 3px;
+    background-color: white;
+}
+.lineTitle hr:last-of-type{
+    width: 50%;
+    margin-top: -10px;
+}
+.skill{
+    width: var(--Width);
+    background-color: var(--BG);
+}
+.skills{
+    width:60%;
+}
+.hidden{
+    display: none;
+}
+.controlButton a{
+    width: 20px;
+    height: 20px;
+    padding-top:1px;
+}
+.bgSpanControl{
+    background-color: black;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+.circle + hr{
+    height: 165px;
+    width: 2px;
+    background: white;
+}
+.location{
+    margin-top: -10px;
+}
+.experience , .education{
+    width: 450px;
+}
+/*************Services*****************/ 
+.card{
+    width:350px;
+    background-color: rgba(0, 0, 0, 0.489);
+}
+.contentcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconservices{
+    border-radius: 50%;
+    width: 70px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.card:hover .iconservices{
+    background-color:#c2575d;
+}
+/**************Works****************/
+.view:hover *{
+    color: #c2575d;
+}
+/**************Contact*****************/
+.contactOption a{
+    background-color: rgba(0, 0, 0, 0.577);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input , form textarea{
+    border-radius: 10px;
+    margin-bottom: 18px;
+    padding: 10px 18px;
+    background-color: rgba(0, 0, 0, 0.515);
+    outline: none;
+    border: none;
+}
+form textarea{
+    height: 250px;
+}
+.message{
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 55%;
+    display: none;
+}
